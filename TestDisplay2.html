@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #pic1{
+    display: none;
+
+    }
+
+</style>
+<script>
+     function show(){
+        document.getElementById("pic1").style.display="block";
+     }
+     function show2(){
+        document.getElementById("pic1").style.display="none";
+     }
+</script>
+
+</head>
+<body>
+    
+    <button onclick="show()">
+       แสดงรูป
+    </button>
+    <button onclick="show2()">
+      ซ่อนรูป
+    </button>
+    <img id="pic1" src="/OIP (2).webp" width="200px" height="200px">
+</body>
+</html>
